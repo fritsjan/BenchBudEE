@@ -29,13 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:BenchBuddy-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 6 8
 Title ""
-Date "2 feb 2014"
+Date "3 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -43,4 +44,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 9400 2650 0    60   Output ~ 0
+Power+
+Text HLabel 9400 2900 0    60   Input ~ 0
+Power-
+Text HLabel 9400 3200 0    60   Input ~ 0
+Tach
+Text HLabel 1900 2050 0    60   Output ~ 0
+Tach_Out
+Text HLabel 1900 2300 0    60   Input ~ 0
+Fan_In
 $EndSCHEMATC

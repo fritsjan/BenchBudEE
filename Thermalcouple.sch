@@ -29,13 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:BenchBuddy-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 8
 Title ""
-Date "2 feb 2014"
+Date "3 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,4 +48,12 @@ Text HLabel 8650 2400 2    60   Input ~ 0
 TC IN +
 Text HLabel 8650 2950 2    60   Input ~ 0
 TC IN -
+Text HLabel 2500 2000 0    60   Input ~ 0
+MOSI
+Text HLabel 2500 2250 0    60   Output ~ 0
+MISO
+Text HLabel 2500 2500 0    60   Input ~ 0
+SCLK
+Text HLabel 2500 2800 0    60   Input ~ 0
+CS_N
 $EndSCHEMATC
