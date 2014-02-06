@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:relay_spdt
 LIBS:BenchBuddy-cache
 EELAYER 27 0
 EELAYER END
@@ -67,8 +68,9 @@ F0 "Relay" 50
 F1 "Relay.sch" 50
 F2 "DIN+" I L 7100 5900 60 
 F3 "DIN-" I L 7100 6050 60 
-F4 "Relay+" I R 9300 5900 60 
-F5 "Relay-" I R 9300 6050 60 
+F4 "NC" B R 9300 6150 60 
+F5 "NO" B R 9300 6350 60 
+F6 "COM" B R 9300 5950 60 
 $EndSheet
 $Sheet
 S 1250 900  2550 1600
@@ -94,7 +96,7 @@ F1 "Fan.sch" 50
 F2 "Power+" O R 8950 900 60 
 F3 "Power-" I R 8950 1050 60 
 F4 "Tach" I R 8950 1200 60 
-F5 "Tach_Out" O L 7100 1650 60 
+F5 "Tach_Out" O L 7100 1750 60 
 F6 "Fan_In" I L 7100 800 60 
 F7 "Current Measure" O L 7100 1550 60 
 F8 "MOSI" I L 7100 1000 60 
