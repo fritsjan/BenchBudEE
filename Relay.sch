@@ -35,7 +35,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 3 9
 Title ""
 Date "6 feb 2014"
 Rev ""
@@ -62,17 +62,6 @@ F 1 "PHTRANS" H 4000 3250 70  0000 C CNN
 F 2 "~" H 4050 3600 60  0000 C CNN
 F 3 "~" H 4050 3600 60  0000 C CNN
 	1    4050 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L +12V #PWR?
-U 1 1 52F37D8E
-P 5700 2150
-F 0 "#PWR?" H 5700 2100 20  0001 C CNN
-F 1 "+12V" H 5700 2250 30  0000 C CNN
-F 2 "" H 5700 2150 60  0000 C CNN
-F 3 "" H 5700 2150 60  0000 C CNN
-	1    5700 2150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -137,11 +126,15 @@ Wire Wire Line
 Wire Wire Line
 	9050 3100 8550 3100
 Wire Wire Line
-	4600 3800 5250 3800
+	4600 3800 5000 3800
+Wire Wire Line
+	5000 3800 5250 3800
 Wire Wire Line
 	5750 3800 5850 3800
 Wire Wire Line
-	7750 3200 5700 3200
+	7750 3200 6950 3200
+Wire Wire Line
+	6950 3200 5700 3200
 $Comp
 L R R?
 U 1 1 52F385E6
@@ -156,7 +149,9 @@ $EndComp
 Wire Wire Line
 	6150 4000 6150 4100
 Wire Wire Line
-	6150 4600 6150 5250
+	6150 4600 6150 5050
+Wire Wire Line
+	6150 5050 6150 5250
 $Comp
 L R R?
 U 1 1 52F3862E
@@ -179,7 +174,11 @@ Wire Wire Line
 	5000 5050 6150 5050
 Connection ~ 6150 5050
 Wire Wire Line
-	5700 2150 5700 3600
+	5700 2100 5700 3200
+Wire Wire Line
+	5700 3200 5700 3400
+Wire Wire Line
+	5700 3400 5700 3600
 Wire Wire Line
 	5700 3600 4600 3600
 Connection ~ 5700 3200
@@ -241,7 +240,9 @@ Wire Wire Line
 Wire Wire Line
 	7250 3650 7250 3300
 Wire Wire Line
-	6500 3650 7250 3650
+	6500 3650 6950 3650
+Wire Wire Line
+	6950 3650 7250 3650
 Wire Wire Line
 	6500 3650 6500 3550
 Wire Wire Line
@@ -249,4 +250,15 @@ Wire Wire Line
 Wire Wire Line
 	6150 3550 6150 3600
 Connection ~ 6950 3650
+$Comp
+L +12P #PWR?
+U 1 1 52F3A669
+P 5700 2100
+F 0 "#PWR?" H 5700 2070 30  0001 C CNN
+F 1 "+12P" H 5700 2200 30  0000 C CNN
+F 2 "" H 5700 2100 60  0000 C CNN
+F 3 "" H 5700 2100 60  0000 C CNN
+	1    5700 2100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
