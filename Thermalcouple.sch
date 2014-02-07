@@ -30,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:relay_spdt
+LIBS:BenchBuddy
 LIBS:BenchBuddy-cache
 EELAYER 27 0
 EELAYER END

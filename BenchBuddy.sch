@@ -30,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:relay_spdt
+LIBS:BenchBuddy
 LIBS:BenchBuddy-cache
 EELAYER 27 0
 EELAYER END
@@ -83,10 +84,9 @@ S 7100 3550 1850 850
 U 52EEB0B1
 F0 "LED_Driver" 50
 F1 "LED_Driver.sch" 50
-F2 "EN" I L 7100 3900 60 
-F3 "FREQ" I L 7100 4100 60 
-F4 "String+" O R 8950 3850 60 
-F5 "String-" I R 8950 4100 60 
+F2 "String+" O R 8950 3850 60 
+F3 "String-" I R 8950 4100 60 
+F4 "LED_EN_PWM" I L 7100 3900 60 
 $EndSheet
 $Sheet
 S 7100 2100 1850 1150

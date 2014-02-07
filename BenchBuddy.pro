@@ -1,4 +1,4 @@
-update=2/6/2014 1:11:58 PM
+update=2/7/2014 3:11:16 PM
 version=1
 last_client=eeschema
 [cvpcb]
@@ -85,3 +85,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=relay_spdt
+LibName32=BenchBuddy
