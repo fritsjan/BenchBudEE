@@ -1,9 +1,13 @@
-EESchema-DOCLIB  Version 2.0  Date: 2/7/2014 3:27:02 PM
+EESchema-DOCLIB  Version 2.0  Date: 2/7/2014 5:38:01 PM
 #
 $CMP AP5726
 D AP5726
 K dc/dc booster
 F http://www.diodes.com/datasheets/AP5726.pdf
+$ENDCMP
+#
+$CMP ARDUINOPINS
+D Arduino Uno
 $ENDCMP
 #
 #End Doc Library

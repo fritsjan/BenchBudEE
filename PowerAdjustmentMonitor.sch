@@ -174,17 +174,6 @@ Wire Wire Line
 	5300 1400 5300 1100
 Connection ~ 4950 1400
 $Comp
-L +3,3V #PWR?
-U 1 1 52F4D462
-P 6650 3450
-F 0 "#PWR?" H 6650 3410 30  0001 C CNN
-F 1 "+3,3V" H 6650 3560 30  0000 C CNN
-F 2 "" H 6650 3450 60  0000 C CNN
-F 3 "" H 6650 3450 60  0000 C CNN
-	1    6650 3450
-	1    0    0    -1  
-$EndComp
-$Comp
 L +5V #PWR?
 U 1 1 52F4D468
 P 6400 3800
@@ -386,4 +375,15 @@ Text Label 8050 2100 0    60   ~ 0
 V+_MON
 Text Notes 3000 6500 0    60   ~ 0
 And the same for the negative rail
+$Comp
+L +3.3V #PWR?
+U 1 1 52F5DC5C
+P 6650 3450
+F 0 "#PWR?" H 6650 3410 30  0001 C CNN
+F 1 "+3.3V" H 6650 3560 30  0000 C CNN
+F 2 "" H 6650 3450 60  0000 C CNN
+F 3 "" H 6650 3450 60  0000 C CNN
+	1    6650 3450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
