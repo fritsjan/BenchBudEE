@@ -1,11 +1,356 @@
-PCBNEW-LibModule-V1  22/02/2014 16:47:11
+PCBNEW-LibModule-V1  23/02/2014 23:37:05
 # encoding utf-8
 Units mm
 $INDEX
+12pinTB
+24pin-ATX
+24pin-Mini-Fit-Jr
+3pinTB
 4-SMD
 SMA
 TE-SPDT
 $EndINDEX
+$MODULE 12pinTB
+Po 0 0 0 15 530A70DA 00000000 ~~
+Li 12pinTB
+Cd http://www.on-shore.com/sites/default/files/manuals/OSTTEXX0164.pdf
+Sc 0
+AR 
+Op 0 0 0
+T0 19.05 -2.286 1 1 0 0.15 N I 21 N "12pinTB"
+T1 38.608 -4.572 1 1 0 0.15 N V 21 N "VAL**"
+DS -2.286 -3.429 40.767 -3.429 0.15 21
+DS 40.767 -3.429 40.767 3.429 0.15 21
+DS 40.767 3.429 -2.286 3.429 0.15 21
+DS -2.286 -3.429 -2.286 3.429 0.15 21
+$PAD
+Sh "1" R 1.905 1.905 0 0 0
+Dr 1.27 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" C 1.905 1.905 0 0 0
+Dr 1.27 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.5 0
+$EndPAD
+$PAD
+Sh "3" C 1.905 1.905 0 0 0
+Dr 1.27 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7 0
+$EndPAD
+$PAD
+Sh "4" C 1.905 1.905 0 0 0
+Dr 1.27 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.5 0
+$EndPAD
+$PAD
+Sh "5" C 1.905 1.905 0 0 0
+Dr 1.27 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 14 0
+$EndPAD
+$PAD
+Sh "6" C 1.905 1.905 0 0 0
+Dr 1.27 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.5 0
+$EndPAD
+$PAD
+Sh "7" C 1.905 1.905 0 0 0
+Dr 1.27 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21 0
+$EndPAD
+$PAD
+Sh "8" C 1.905 1.905 0 0 0
+Dr 1.27 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 24.5 0
+$EndPAD
+$PAD
+Sh "9" C 1.905 1.905 0 0 0
+Dr 1.27 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 28 0
+$EndPAD
+$PAD
+Sh "10" C 1.905 1.905 0 0 0
+Dr 1.27 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 31.5 0
+$EndPAD
+$PAD
+Sh "11" C 1.905 1.905 0 0 0
+Dr 1.27 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 35 0
+$EndPAD
+$PAD
+Sh "12" C 1.905 1.905 0 0 0
+Dr 1.27 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 38.5 0
+$EndPAD
+$EndMODULE 12pinTB
+$MODULE 24pin-ATX
+Po 0 0 0 15 530A780D 00000000 ~~
+Li 24pin-ATX
+Cd http://www.molex.com/pdm_docs/sd/039301240_sd.pdf
+Kw atx, minifit jr, molex
+Sc 0
+AR 
+Op 0 0 0
+T0 38 -9 1 1 0 0.15 N I 21 N "24pin-ATX"
+T1 46 -9 1 1 0 0.15 N V 21 N "VAL**"
+DS -3 0 -3 14 0.15 21
+DS -3 14 49 14 0.15 21
+DS 49 14 49 -8 0.15 21
+DS 49 -8 -3 -8 0.15 21
+DS -3 -8 -3 0 0.15 21
+$PAD
+Sh "13" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 46.2 -5.5
+$EndPAD
+$PAD
+Sh "14" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 42 -5.5
+$EndPAD
+$PAD
+Sh "15" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 37.8 -5.5
+$EndPAD
+$PAD
+Sh "16" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 33.6 -5.5
+$EndPAD
+$PAD
+Sh "17" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 29.4 -5.5
+$EndPAD
+$PAD
+Sh "18" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 25.2 -5.5
+$EndPAD
+$PAD
+Sh "19" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21 -5.5
+$EndPAD
+$PAD
+Sh "20" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.8 -5.5
+$EndPAD
+$PAD
+Sh "21" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.6 -5.5
+$EndPAD
+$PAD
+Sh "22" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.4 -5.5
+$EndPAD
+$PAD
+Sh "23" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4.2 -5.5
+$EndPAD
+$PAD
+Sh "24" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -5.5
+$EndPAD
+$PAD
+Sh "1" R 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" C 3 3 0 0 0
+Dr 3 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 7.3
+$EndPAD
+$PAD
+Sh "" C 3 3 0 0 0
+Dr 3 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 46.2 7.3
+$EndPAD
+$PAD
+Sh "2" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4.2 0
+$EndPAD
+$PAD
+Sh "3" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.4 0
+$EndPAD
+$PAD
+Sh "4" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.6 0
+$EndPAD
+$PAD
+Sh "5" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.8 0
+$EndPAD
+$PAD
+Sh "6" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21 0
+$EndPAD
+$PAD
+Sh "7" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 25.2 0
+$EndPAD
+$PAD
+Sh "8" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 29.4 0
+$EndPAD
+$PAD
+Sh "9" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 33.6 0
+$EndPAD
+$PAD
+Sh "10" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 37.8 0
+$EndPAD
+$PAD
+Sh "11" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 42 0
+$EndPAD
+$PAD
+Sh "12" C 3 3 0 0 0
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 46.2 0
+$EndPAD
+$EndMODULE 24pin-ATX
+$MODULE 24pin-Mini-Fit-Jr
+Po 0 0 0 15 530A6E68 00000000 ~~
+Li 24pin-Mini-Fit-Jr
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -15.24 1 1 0 0.15 N V 21 N "24pin-Mini-Fit-Jr"
+T1 0 11.43 1 1 0 0.15 N V 21 N "VAL**"
+$EndMODULE 24pin-Mini-Fit-Jr
+$MODULE 3pinTB
+Po 0 0 0 15 530A7119 00000000 ~~
+Li 3pinTB
+Cd http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/COMBICON%20Compact%205.0mm%20Series.pdf
+Sc 0
+AR 
+Op 0 0 0
+T0 4.572 -4.064 1 1 0 0.15 N I 21 N "3pinTB"
+T1 10.16 -4.064 1 1 0 0.15 N V 21 N "VAL**"
+DS -2.54 0 -2.54 -3.048 0.15 21
+DS -2.54 -3.048 12.192 -3.048 0.15 21
+DS 12.192 -3.048 12.192 4.064 0.15 21
+DS 12.192 4.064 -2.54 4.064 0.15 21
+DS -2.54 4.064 -2.54 0 0.15 21
+$PAD
+Sh "1" R 2 2 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" C 2 2 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5 0
+$EndPAD
+$PAD
+Sh "3" C 2 2 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10 0
+$EndPAD
+$EndMODULE 3pinTB
 $MODULE 4-SMD
 Po 0 0 0 15 5308BF55 00000000 ~~
 Li 4-SMD

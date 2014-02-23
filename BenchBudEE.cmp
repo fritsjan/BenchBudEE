@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 23/02/2014 17:51:08
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 23/02/2014 23:38:18
 
 BeginCmp
 TimeStamp = /52EEB085/52F3AD32;
@@ -120,6 +120,13 @@ IdModule  = TE-SPDT;
 EndCmp
 
 BeginCmp
+TimeStamp = /52EEB0FB/530A7290;
+Reference = K2;
+ValeurCmp = 3 Pin Terminal Block;
+IdModule  = 3pinTB;
+EndCmp
+
+BeginCmp
 TimeStamp = /52EEB085/52F3AD23;
 Reference = L1;
 ValeurCmp = INDUCTOR;
@@ -143,8 +150,8 @@ EndCmp
 BeginCmp
 TimeStamp = /52EEB085/52F3A9AC;
 Reference = P1;
-ValeurCmp = CONN_12X2;
-IdModule  = ;
+ValeurCmp = 24 Pin Minifit Jr;
+IdModule  = 24pin-ATX;
 EndCmp
 
 BeginCmp
@@ -159,6 +166,13 @@ TimeStamp = /52EEB050/530A65F7;
 Reference = P3;
 ValeurCmp = CONN_2;
 IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EEB0FB/530A7609;
+Reference = P4;
+ValeurCmp = 12 Pin Terminal Block;
+IdModule  = 12pinTB;
 EndCmp
 
 BeginCmp
