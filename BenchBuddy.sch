@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
 Title ""
-Date "22 feb 2014"
+Date "23 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -100,7 +100,9 @@ F3 "TC IN -" I R 8950 4100 60
 F4 "MOSI" I L 7100 3700 60 
 F5 "MISO" O L 7100 3850 60 
 F6 "SCLK" I L 7100 4000 60 
-F7 "CS_N" I L 7100 4400 60 
+F7 "~CS" I L 7100 4150 60 
+F8 "~DR" O L 7100 4300 60 
+F9 "~RESET" I L 7100 4450 60 
 $EndSheet
 $Sheet
 S 4200 800  1300 1650
@@ -152,6 +154,8 @@ F12 "DAC_CS_N" O R 3300 4250 60
 F13 "ADC_CS_N" O R 3300 4400 60 
 F14 "FAN_PWM_N" O R 3300 3600 60 
 F15 "FAN_MODE" O R 3300 4650 60 
+F16 "~RESET" O R 3300 5000 60 
+F17 "~DR" O R 3300 4850 60 
 $EndSheet
 Wire Wire Line
 	5500 1050 10250 1050
@@ -224,8 +228,6 @@ Wire Wire Line
 Wire Wire Line
 	6600 4250 3300 4250
 Wire Wire Line
-	3300 4400 7100 4400
-Wire Wire Line
 	7100 3700 6150 3700
 Connection ~ 6150 3700
 Wire Wire Line
@@ -254,4 +256,22 @@ Wire Wire Line
 	6800 4650 6800 3300
 Wire Wire Line
 	6800 3300 7100 3300
+Wire Wire Line
+	7100 4150 6700 4150
+Wire Wire Line
+	6700 4150 6700 4400
+Wire Wire Line
+	6700 4400 3300 4400
+Wire Wire Line
+	6850 4300 7100 4300
+Wire Wire Line
+	6850 4300 6850 4850
+Wire Wire Line
+	6850 4850 3300 4850
+Wire Wire Line
+	3300 5000 7000 5000
+Wire Wire Line
+	7000 5000 7000 4450
+Wire Wire Line
+	7000 4450 7100 4450
 $EndSCHEMATC
