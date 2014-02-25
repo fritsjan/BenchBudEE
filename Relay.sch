@@ -31,6 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:relay_spdt
 LIBS:BenchBuddy
+LIBS:open-project
 LIBS:BenchBuddy-cache
 EELAYER 27 0
 EELAYER END
@@ -38,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 9
 Title ""
-Date "24 feb 2014"
+Date "25 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -55,10 +56,10 @@ RELAY_NC
 Text HLabel 9050 3100 2    60   BiDi ~ 0
 RELAY_NO
 $Comp
-L GND #PWR2
+L GND #PWR01
 U 1 1 52F37DB3
 P 6150 5250
-F 0 "#PWR2" H 6150 5250 30  0001 C CNN
+F 0 "#PWR01" H 6150 5250 30  0001 C CNN
 F 1 "GND" H 6150 5180 30  0001 C CNN
 F 2 "" H 6150 5250 60  0000 C CNN
 F 3 "" H 6150 5250 60  0000 C CNN
@@ -187,10 +188,10 @@ F 8 "http://www.digikey.com/product-detail/en/B130-13-F/B130-FDICT-ND/815318" H 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +12P #PWR1
+L +12P #PWR02
 U 1 1 52F3A669
 P 5700 2100
-F 0 "#PWR1" H 5700 2070 30  0001 C CNN
+F 0 "#PWR02" H 5700 2070 30  0001 C CNN
 F 1 "+12P" H 5700 2200 30  0000 C CNN
 F 2 "" H 5700 2100 60  0000 C CNN
 F 3 "" H 5700 2100 60  0000 C CNN

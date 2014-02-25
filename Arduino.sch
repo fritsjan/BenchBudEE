@@ -31,6 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:relay_spdt
 LIBS:BenchBuddy
+LIBS:open-project
 LIBS:BenchBuddy-cache
 EELAYER 27 0
 EELAYER END
@@ -38,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 9
 Title ""
-Date "24 feb 2014"
+Date "25 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -57,7 +58,7 @@ MISO
 Text HLabel 6300 2950 2    60   Output ~ 0
 SCLK
 Text HLabel 6300 3850 2    60   Output ~ 0
-DAC_CS_N
+~DAC_CS
 Text HLabel 6300 3550 2    60   Output ~ 0
 LED_EN_PWM
 Text HLabel 6300 3400 2    60   Output ~ 0
@@ -123,10 +124,10 @@ Wire Wire Line
 Wire Wire Line
 	5650 4750 5450 4750
 $Comp
-L GND #PWR58
+L GND #PWR060
 U 1 1 52F5F8B2
 P 6900 5650
-F 0 "#PWR58" H 6900 5650 30  0001 C CNN
+F 0 "#PWR060" H 6900 5650 30  0001 C CNN
 F 1 "GND" H 6900 5580 30  0001 C CNN
 F 2 "" H 6900 5650 60  0000 C CNN
 F 3 "" H 6900 5650 60  0000 C CNN
@@ -288,7 +289,7 @@ F 3 "~" H 5900 3700 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text HLabel 6300 3700 2    60   Output ~ 0
-ADC_CS_N
+~ADC_CS
 Wire Wire Line
 	6300 3700 6150 3700
 Wire Wire Line
@@ -313,10 +314,10 @@ Wire Wire Line
 Wire Wire Line
 	2400 3800 2400 3500
 $Comp
-L +12P #PWR57
+L +12P #PWR061
 U 1 1 52F91A1B
 P 2400 3500
-F 0 "#PWR57" H 2450 3550 60  0001 C CNN
+F 0 "#PWR061" H 2450 3550 60  0001 C CNN
 F 1 "+12P" H 2400 3500 60  0001 C CNN
 F 2 "" H 2400 3500 60  0000 C CNN
 F 3 "" H 2400 3500 60  0001 C CNN
@@ -360,4 +361,38 @@ Wire Wire Line
 	6300 4300 6150 4300
 Wire Wire Line
 	5650 4300 5450 4300
+Text HLabel 6300 4450 2    60   Output ~ 0
+~LDAC
+$Comp
+L R R43
+U 1 1 530CF738
+P 5900 4450
+F 0 "R43" V 5980 4450 40  0000 C CNN
+F 1 "0" V 5907 4451 40  0000 C CNN
+F 2 "~" V 5830 4450 30  0000 C CNN
+F 3 "~" H 5900 4450 30  0000 C CNN
+	1    5900 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 4450 6150 4450
+Wire Wire Line
+	5650 4450 5450 4450
+Text HLabel 6300 4600 2    60   Output ~ 0
+~SHDN
+$Comp
+L R R44
+U 1 1 530CF741
+P 5900 4600
+F 0 "R44" V 5980 4600 40  0000 C CNN
+F 1 "0" V 5907 4601 40  0000 C CNN
+F 2 "~" V 5830 4600 30  0000 C CNN
+F 3 "~" H 5900 4600 30  0000 C CNN
+	1    5900 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 4600 6150 4600
+Wire Wire Line
+	5650 4600 5450 4600
 $EndSCHEMATC

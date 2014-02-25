@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 23/02/2014 15:58:56
+EESchema-DOCLIB  Version 2.0  Date: 25/02/2014 21:06:46
 #
 $CMP AP5726
 D AP5726
@@ -10,10 +10,33 @@ $CMP ARDUINOPINS
 D Arduino Uno
 $ENDCMP
 #
+$CMP LMT84
+D Analog Sensor
+F http://www.ti.com/lit/ds/symlink/lmt84.pdf
+$ENDCMP
+#
 $CMP MCP3901
 D Two Channel Analog Front End 
 K ADC
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22192d.pdf
+$ENDCMP
+#
+$CMP MCP4801
+D 8 bit Voltage Output DAC, with internal Vref
+K dac, vref
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22244B.pdf
+$ENDCMP
+#
+$CMP MOS_N
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP MOS_N_1
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP MOSFET_N
+F transistors/mos/*.*
 $ENDCMP
 #
 #End Doc Library

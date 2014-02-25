@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 24/02/2014 17:42:43
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 25/02/2014 21:17:14
 
 BeginCmp
 TimeStamp = /52EEB085/52F3AD32;
@@ -85,6 +85,20 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /52EEB0CE/530DA093;
+Reference = C13;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EEB0CE/530DA77A;
+Reference = C14;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /52EEB072/52F37F4A;
 Reference = D1;
 ValeurCmp = LED LG Q971-KN-1;
@@ -108,8 +122,8 @@ EndCmp
 BeginCmp
 TimeStamp = /52EEB0CE/52F8F3B9;
 Reference = D5;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = B130-13-F;
+IdModule  = SMA;
 EndCmp
 
 BeginCmp
@@ -185,22 +199,22 @@ EndCmp
 BeginCmp
 TimeStamp = /52EEB0CE/52F8F4F2;
 Reference = Q2;
-ValeurCmp = MOSFET_N;
-IdModule  = ;
+ValeurCmp = DMN65D8L-7;
+IdModule  = SOT23GDS;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EEB0CE/52F8F2F2;
+TimeStamp = /52EEB0CE/530DB8F6;
 Reference = Q3;
-ValeurCmp = MOSFET_N;
-IdModule  = ;
+ValeurCmp = AOD476;
+IdModule  = DPAK2;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EEB0CE/52F36CCA;
+TimeStamp = /52EEB0CE/530DB6F5;
 Reference = Q4;
-ValeurCmp = MOSFET_N;
-IdModule  = ;
+ValeurCmp = AOD476;
+IdModule  = DPAK2;
 EndCmp
 
 BeginCmp
@@ -228,21 +242,21 @@ BeginCmp
 TimeStamp = /52EEB072/52F386D7;
 Reference = R4;
 ValeurCmp = 0;
-IdModule  = SM0805;
+IdModule  = S_Jumper_SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EEB072/52F385E6;
 Reference = R5;
 ValeurCmp = 0;
-IdModule  = SM0805;
+IdModule  = S_Jumper_SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EEB072/5308B8DE;
 Reference = R6;
 ValeurCmp = 0;
-IdModule  = SM0805;
+IdModule  = S_Jumper_SM0805;
 EndCmp
 
 BeginCmp
@@ -347,112 +361,112 @@ BeginCmp
 TimeStamp = /52EEB0CE/52F36F5D;
 Reference = R21;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EEB0CE/52F10F9C;
 Reference = R22;
-ValeurCmp = R;
-IdModule  = ;
+ValeurCmp = 1;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EEB005/52F919D6;
 Reference = R23;
 ValeurCmp = 0;
-IdModule  = SM0805;
+IdModule  = S_Jumper_SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EEB005/52F60030;
 Reference = R24;
 ValeurCmp = 0;
-IdModule  = SM0805;
+IdModule  = S_Jumper_SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EEB005/52F6002A;
 Reference = R25;
 ValeurCmp = 0;
-IdModule  = SM0805;
+IdModule  = S_Jumper_SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EEB005/52F5F8E2;
 Reference = R26;
 ValeurCmp = 0;
-IdModule  = SM0805;
+IdModule  = S_Jumper_SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EEB005/52F5F8DC;
 Reference = R27;
 ValeurCmp = 0;
-IdModule  = SM0805;
+IdModule  = S_Jumper_SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EEB005/52F61E00;
 Reference = R28;
 ValeurCmp = 0;
-IdModule  = SM0805;
+IdModule  = S_Jumper_SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EEB005/52F61DFA;
 Reference = R29;
 ValeurCmp = 0;
-IdModule  = SM0805;
+IdModule  = S_Jumper_SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EEB005/52F61DF2;
 Reference = R30;
 ValeurCmp = 0;
-IdModule  = SM0805;
+IdModule  = S_Jumper_SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EEB005/52F5E804;
 Reference = R31;
 ValeurCmp = 0;
-IdModule  = SM0805;
+IdModule  = S_Jumper_SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EEB005/52F61E4A;
 Reference = R32;
 ValeurCmp = 0;
-IdModule  = SM0805;
+IdModule  = S_Jumper_SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EEB005/52F65267;
 Reference = R33;
 ValeurCmp = 0;
-IdModule  = SM0805;
+IdModule  = S_Jumper_SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EEB005/52F61E12;
 Reference = R34;
 ValeurCmp = 0;
-IdModule  = SM0805;
+IdModule  = S_Jumper_SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EEB005/52F5E824;
 Reference = R35;
 ValeurCmp = 0;
-IdModule  = SM0805;
+IdModule  = S_Jumper_SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EEB005/52F5E82A;
 Reference = R36;
 ValeurCmp = 0;
-IdModule  = SM0805;
+IdModule  = S_Jumper_SM0805;
 EndCmp
 
 BeginCmp
@@ -473,28 +487,42 @@ BeginCmp
 TimeStamp = /52EEB005/530A4ED3;
 Reference = R39;
 ValeurCmp = 0;
-IdModule  = SM0805;
+IdModule  = S_Jumper_SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EEB005/530A4EDC;
 Reference = R40;
 ValeurCmp = 0;
-IdModule  = SM0805;
+IdModule  = S_Jumper_SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EEB050/530A6E02;
 Reference = R41;
 ValeurCmp = 0;
-IdModule  = SM0805;
+IdModule  = S_Jumper_SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EEB050/530A6D0B;
 Reference = R42;
 ValeurCmp = 0;
-IdModule  = SM0805;
+IdModule  = S_Jumper_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EEB005/530CF738;
+Reference = R43;
+ValeurCmp = 0;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EEB005/530CF741;
+Reference = R44;
+ValeurCmp = 0;
+IdModule  = ;
 EndCmp
 
 BeginCmp
@@ -535,8 +563,8 @@ EndCmp
 BeginCmp
 TimeStamp = /52EEB0CE/52F8F352;
 Reference = TH5;
-ValeurCmp = THERMISTOR;
-IdModule  = ;
+ValeurCmp = PTC 500mA;
+IdModule  = SM1812;
 EndCmp
 
 BeginCmp
@@ -589,10 +617,10 @@ IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EEB0CE/52F36DAD;
+TimeStamp = /52EEB0CE/530CEB4F;
 Reference = U8;
-ValeurCmp = MCP4922-E/ST;
-IdModule  = ;
+ValeurCmp = MCP4801;
+IdModule  = SO8E;
 EndCmp
 
 BeginCmp
